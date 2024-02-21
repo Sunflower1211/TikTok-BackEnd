@@ -1,0 +1,43 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NgoLuong1211/quanlykhachsan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NgoLuong1211/quanlykhachsan/issues"
+  },
+  "homepage": "https://github.com/NgoLuong1211/quanlykhachsan#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.7",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "bcrypt": "^5.1.1",
+    "ejs": "^3.1.9",
+    "eslint": "^8.56.0",
+    "express-async-errors": "^3.1.1",
+    "mongoose": "^7.5.0",
+    "nodemon": "^3.0.1",
+    "otp-generator": "^4.0.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "prettier": "^3.2.4"
+  }
+}
